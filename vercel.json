@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "bras-conect",
+  "builds": [{ "src": "**/*", "use": "@vercel/static" }],
+  "routes": [{ "src": "/(.*)", "dest": "/$1" }]
+}
